@@ -1,0 +1,39 @@
+{
+    "name": "@bolokozord/struc-ts",
+    "description": "Structural Engineering 3d Visualization Library",
+    "author": "Yuri FBecker",
+    "license": "MIT",
+    "keywords": [
+        "structural",
+        "engineering",
+        "3d",
+        "visualization"
+    ],
+    "version": "1.0.2",
+    "type": "module",
+    "main": "dist/index.js",
+    "module": "dist/index.esm.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "rollup -c",
+        "dev": "rollup -c -w",
+        "type-check": "tsc --noEmit"
+    },
+    "peerDependencies": {
+        "three": "^0.174.0"
+    },
+    "devDependencies": {
+        "@rollup/plugin-commonjs": "^25.0.0",
+        "@rollup/plugin-node-resolve": "^15.0.0",
+        "@rollup/plugin-typescript": "^11.0.0",
+        "@types/three": "^0.174.0",
+        "rollup": "^3.20.0",
+        "three": "^0.174.0",
+        "tslib": "^2.5.0",
+        "typescript": "^5.0.0"
+    },
+    "packageManager": "pnpm@9.5.0+sha512.140036830124618d624a2187b50d04289d5a087f326c9edfc0ccd733d76c4f52c3a313d4fc148794a2a9d81553016004e6742e8cf850670268a7387fc220c903"
+}
