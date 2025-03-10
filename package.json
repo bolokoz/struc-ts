@@ -7,9 +7,11 @@
         "structural",
         "engineering",
         "3d",
-        "visualization"
+        "visualization",
+        "vue",
+        "nuxt"
     ],
-    "version": "1.0.2",
+    "version": "1.1.0",
     "type": "module",
     "main": "dist/index.js",
     "module": "dist/index.esm.js",
@@ -23,17 +25,19 @@
         "type-check": "tsc --noEmit"
     },
     "peerDependencies": {
-        "three": "^0.174.0"
+        "three": "^0.174.0",
+        "vue": "^3.0.0"
     },
     "devDependencies": {
         "@rollup/plugin-commonjs": "^25.0.0",
         "@rollup/plugin-node-resolve": "^15.0.0",
         "@rollup/plugin-typescript": "^11.0.0",
-        "@types/three": "^0.174.0",
         "rollup": "^3.20.0",
-        "three": "^0.174.0",
+        "rollup-plugin-vue": "^6.0.0",
+        "typescript": "^5.0.0",
         "tslib": "^2.5.0",
-        "typescript": "^5.0.0"
+        "@types/three": "^0.174.0",
+        "vue": "^3.0.0"
     },
     "packageManager": "pnpm@9.5.0+sha512.140036830124618d624a2187b50d04289d5a087f326c9edfc0ccd733d76c4f52c3a313d4fc148794a2a9d81553016004e6742e8cf850670268a7387fc220c903"
 }
